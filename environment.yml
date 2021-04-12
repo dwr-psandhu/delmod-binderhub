@@ -8,26 +8,41 @@ channels:
 dependencies:
   - python=3.7
   # first our packages
-  - pyhecdss
   - vtools3
-  - pydsm
-  - pydelmod
+  - schimpy
   # then basics
+  - numpy 
+  - scipy
+  - pandas
   - xarray
   - netcdf4
+  - cfunits
   - scipy
+  - statsmodels
   - gdal
+  - geopandas
   - shapely
+  - xlrd
+  # more stuff
+  - beautifulsoup4
+  - palettable
+  - rtree
+  - sympy
   # then plot stuff
   - matplotlib
+  - seaborn
   - holoviews
   - hvplot
   - jupyter
-  - plotly=3
   - networkx
   - ipyleaflet
   - ipywidgets
-  # finally misc 
+  # dev stuff
+  - pytest-runner
+  - sphinx
+  - nbsphinx
+  - numpydoc
+  - sphinx-argparse
+  - spyder-kernels
   - jupyter_contrib_nbextensions
   - ipysheet
-  
