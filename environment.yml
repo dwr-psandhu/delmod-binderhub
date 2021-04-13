@@ -13,6 +13,8 @@ dependencies:
   - pydsm
   - pydelmod
   # then basics
+  - numba
+  - dask
   - xarray
   - netcdf4
   - scipy
@@ -27,7 +29,8 @@ dependencies:
   - networkx
   - ipyleaflet
   - ipywidgets
-  # finally misc 
+  # finally misc
+  - autopep8 
   - jupyter_contrib_nbextensions
   - ipysheet
   
